@@ -17,5 +17,5 @@ Config.MaxWeight            = 24   -- the max inventory weight without backpack
 
 Config.PaycheckInterval = 7 * 60000 -- how often to recieve pay checks in milliseconds
 
-Config.EnableDebug  = false
+Config.EnableDebug  = true
 Config.InventoryKey = 'REPLAY_START_STOP_RECORDING_SECONDARY' -- Key F2 by default
