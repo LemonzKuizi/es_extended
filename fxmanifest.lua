@@ -107,7 +107,7 @@ esxmodule 'menu_list' -- List menu
 
 -- Misc
 esxmodule 'skin' -- Skin management
-esxmodule 'accessories' -- Skin accessories management
+-- esxmodule 'accessories' -- Skin accessories management
 esxmodule 'voice' -- Proximity voice controller
 
 -- Jobs
