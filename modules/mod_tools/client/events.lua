@@ -1,5 +1,4 @@
 RegisterNetEvent('esx_mod_tools:alert')
-print('registerrr');
 AddEventHandler('esx_mod_tools:alert', function(msg)
   print('Listen!');
 	PlaySoundFrontend(-1, "CONFIRM_BEEP", "HUD_MINI_GAME_SOUNDSET", 1)
