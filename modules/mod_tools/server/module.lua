@@ -3,6 +3,5 @@ RegisterCommand('alert', function(source, args, user)
       msg = (msg or '') .. " " .. v
     end
     TriggerClientEvent('mod_tools:alert', -1, msg)
-    msg = ""
-    print('Shoot');
+    msg = ""    
 end)
