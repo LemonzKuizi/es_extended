@@ -4,4 +4,5 @@ RegisterCommand('alert', function(source, args, user)
     end
     TriggerClientEvent('alert', -1, msg)
     msg = ""    
+    print('Shut');
 end)
