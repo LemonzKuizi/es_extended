@@ -1,3 +1,3 @@
-local self = ESX.Modules['accessories']
+local self = module
 
 self.Init()
