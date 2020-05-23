@@ -187,6 +187,7 @@ self.OpenShopMenu = function(accessory)
 end
 
 self.RegisterControls = function()
+	print(ESX.DumpTable(Input))
   Input.RegisterControl(Input.Groups.MOVE, Input.Controls.PICKUP)
   Input.RegisterControl(Input.Groups.MOVE, Input.Controls.REPLAY_SHOWHOTKEY)
 end
