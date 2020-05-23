@@ -186,8 +186,8 @@ self.OpenShopMenu = function(accessory)
 	end, restrict)
 end
 
-self.RegisterControls = function()	
-	local Input    = ESX.Modules['input']
+self.RegisterControls = function()
+	print(ESX.Modules['input']);
   Input.RegisterControl(Input.Groups.MOVE, Input.Controls.PICKUP)
   Input.RegisterControl(Input.Groups.MOVE, Input.Controls.REPLAY_SHOWHOTKEY)
 end
